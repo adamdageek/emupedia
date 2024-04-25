@@ -1306,7 +1306,7 @@
 			}
 
 			$sys.version = '{{ site.github.build_revision }}';
-			$sys.date = '{{ site.github.public_repositories | where:"id", 52881539 | first | jsonify }}';
+			$sys.date = Date.now()
 
 			// noinspection ThisExpressionReferencesGlobalObjectJS
 			(function(global) {
